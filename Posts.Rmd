@@ -1,0 +1,25 @@
+---
+title: "About This Website"
+---
+
+<h2>Here's the Posts</h2>
+
+<h4>POST NUMBER 1</h4>
+```{r warning=FALSE, include=FALSE}
+post <- read.table("Posts/sample.txt", 
+                 header = FALSE, sep="~")
+
+#Right now this generates a single blog post.
+#But I need to be able to generate lots of blog posts!
+#So here is my plan:
+#Get a list of all the .txt files in the directory
+#Arrange them by some kind of title-naming-convention
+#Create a new dataframe for each one
+#Figure out a paragraph separating character (probably ~)
+#Figure out how to render however many of these newly created dataframes there are in the body of markdown
+#Figure out how to give each one a nice title
+```
+
+`r post`
+
+<p>And that's all for now.</p>

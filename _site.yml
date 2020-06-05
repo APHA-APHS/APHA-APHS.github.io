@@ -1,0 +1,8 @@
+name: "aphs-posts"
+navbar:
+  title: "APHS Posts"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Posts"
+      href: posts.html
